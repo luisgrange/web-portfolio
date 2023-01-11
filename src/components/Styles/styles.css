@@ -26,7 +26,8 @@
 
 /* HOME */
 #home,
-#about{
+#about,
+#services{
     padding-top: 90px;
     display: flex;
 }
@@ -116,4 +117,45 @@
 #about ul li strong{
     color: #f26b50;
     font-size: 44px;
+}
+
+/* Services */
+
+#services{
+    flex-direction: column;
+}
+
+.whatOffer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+}
+
+.whatOffer .box{
+    background: #131313;
+    height: 300px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+}
+
+.whatOffer .box .box--head{
+    text-align: center;
+}
+
+.whatOffer .box .box--head h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.whatOffer .box .box--body{
+    text-align: center;
+    color: #a5a5a5;
+    font-size: 14px;
 }

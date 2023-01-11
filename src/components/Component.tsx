@@ -13,7 +13,8 @@ export const Container = styled.div`
 export const Title = styled.h2`
     color: ${shades.neutral[500]};
     position: relative;
-    font-size: 28px;
+    font-size: 28px;    
+    
     &::after{
         content: "";
         width: 70%;
