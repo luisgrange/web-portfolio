@@ -10,7 +10,7 @@ import { Services } from './pages/Services';
 
 function App() {
   return (
-    <div className='app' style={{height: "100%", overflow: "hidden"}}>
+    <div className='app' style={{height: "100%"}}>
       <Navbar />
         <Home/>
         <About/>
